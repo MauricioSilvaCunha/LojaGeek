@@ -1,0 +1,90 @@
+#produtos,#sobre{
+    min-height: 100vh;
+    padding: 4em;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(56, 58, 53);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+#produtos{
+    background-color: rgb(233, 121, 17);
+    
+}
+
+#produtos p, h5{
+    color: black;
+}
+
+#sobre{
+    background-color: rgb(236, 171, 49)
+    
+}
+
+nav{
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#produtos img{
+    max-height: 380px;
+}
+
+.card h5{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 1em;
+    
+}
+#subir a{
+    position: fixed;
+    right: 0.5em;
+    bottom: 1em;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
+#subir a i{
+    font-size: 3em;
+}
+
+#subir a:hover{
+    opacity: 1;
+}
+
+#subir{
+    display: none;
+}
+
+.card{
+    margin-bottom: 1.5em;
+    background-color: rgba(220, 117, 20, 0.836);
+    border: none;
+}
+.card img{
+    height: 350px;
+}
+.carousel img{
+    height: 900px;
+}
+
+#subbody{
+    background-color: rgb(211, 120, 35);
+    text-align: center;
+    font-size: 25px;
+}
+
+#subimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#subtext{
+    font-size: 50px;
+}
